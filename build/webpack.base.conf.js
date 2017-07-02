@@ -19,7 +19,12 @@ module.exports = {
       : config.dev.assetsPublicPath
   },
   resolve: {
+
+    // 引用import时自动补全文件后缀
     extensions: ['.js', '.vue', '.json'],
+
+
+    // 别名
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
       '@': resolve('src')

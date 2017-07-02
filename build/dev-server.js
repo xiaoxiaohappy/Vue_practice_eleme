@@ -6,8 +6,16 @@ if (!process.env.NODE_ENV) {
 }
 
 var opn = require('opn')
+
+
+// path是nodejs的一个API，提供一些路径的方法
 var path = require('path')
+
+
+// nodejs的框架，这里用在web server 上
 var express = require('express')
+
+
 var webpack = require('webpack')
 var proxyMiddleware = require('http-proxy-middleware')
 var webpackConfig = require('./webpack.dev.conf')
