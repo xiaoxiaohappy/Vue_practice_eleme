@@ -12,8 +12,62 @@ var opn = require('opn')
 var path = require('path')
 
 
+
+
+
+
+
+
+
+
 // nodejs的框架，这里用在web server 上
 var express = require('express')
+var app=express();
+
+// const router = new VueRouter({
+//   mode:'history',
+//   routes:[{
+//     path:'/api/seller',components:require('../src/components/seller.vue')
+//   }]
+// })
+//在这里加载我模拟的数据
+// var appData = require('../data.json');
+// var seller = appData.seller;
+// var goods = appData.goods;
+// var ratings = appData.ratings;
+//
+// var apiRoutes = express.Router();
+// console.log(apiRoutes)
+// apiRoutes.get('/#/seller',function (req,res) {
+//   // res.send('OK');
+//   // res.json({
+//   //   errno:0,
+//   //   data:seller
+//   // })
+//   // res.end();
+//   res.json(req);
+// });
+// apiRoutes.get('/goods',function (req,res) {
+//   res.json({
+//     errno:0,
+//     data:goods
+//   })
+// });
+// apiRoutes.get('/rating',function (req,res) {
+//   res.json({
+//     errno:0,
+//     data:ratings
+//   })
+// });
+// app.use('/api',apiRoutes);
+
+
+
+
+
+
+
+
 
 
 var webpack = require('webpack')
